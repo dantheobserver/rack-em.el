@@ -1,4 +1,4 @@
-;; rack-em.el
+;; rack-em.el - Racks up kills and pops em out.
 
 ;; Possible usages - kill-ring-yank-pointer
 ;; display-buffer-in-side-window
