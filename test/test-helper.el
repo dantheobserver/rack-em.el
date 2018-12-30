@@ -9,4 +9,9 @@
 (defvar root-path
   (f-parent root-test-path))
 
+(defun helper-create-region (beg end)
+  (goto-char beg)
+  (push-mark end t)
+  (activate-mark))
+
 (require 'rack-em-mode (f-expand "rack-em.el" root-path))
